@@ -1,0 +1,12 @@
+<%- include ("../layouts/header"); -%>
+
+<h3>Register new account</h3>
+
+<form action="/register" method="POST">
+    <input type="text" name="blog[username]" placeholder="Username">
+    <input type="password" name="blog[password]" placeholder="password">
+    <button type="Submit">Register</button>
+</form>
+
+
+<%- include ("../layouts/footer"); -%>
